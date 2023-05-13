@@ -1,8 +1,34 @@
-import React from 'react'
+import React from 'react';
+import { LinkedIn } from '@material-ui/icons';
+import { Mail } from '@material-ui/icons';
+import { GitHub } from '@material-ui/icons';
+import "../styles/Home.css";
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div className='home'>
+            <div className='about'>
+                <h2>Hi, I'm Rabin Kumar Baniya</h2>
+                <div className='prompt'>
+                    <p>Enthusiastic in developing web and mobile application.</p>
+                    <LinkedIn />
+                    <Mail />
+                    <GitHub />
+                </div>
+            </div>
+            <div className='skills'>
+                <ol className='list'>
+                    <li className='item'>
+                        <h2>Front-End</h2>
+                        <span>HTML, CSS, ReactJS, Flutter, BootStrap, MaterialUI, Redux, TailwindCSS</span>
+                    </li>
+                    <li className='item'>
+                        <h2>Languages</h2>
+                        <span>JavaScript, Dart, C, C++</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
     )
 }
 
