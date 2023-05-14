@@ -25,7 +25,7 @@ const Experience = () => {
                     icon={<WorkIcon />}
                 >
                     <h3 className='vertical-timeline-element-title'>
-                        Seeking a job
+                        Seeking for a job
                     </h3>
                     <p>In Web Development</p>
 

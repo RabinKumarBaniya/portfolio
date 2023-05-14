@@ -11,9 +11,15 @@ const Home = () => {
                 <h2>Hi, I'm Rabin Kumar Baniya</h2>
                 <div className='prompt'>
                     <p>Enthusiastic in developing web and mobile application.</p>
-                    <LinkedIn />
-                    <Mail />
-                    <GitHub />
+                    <a href="https://www.linkedin.com/in/rabin-kumar-baniya-156b45237">
+                        <LinkedIn />
+                    </a>
+                    <a href="mailto:rabinkrbaniya09@gmail.com">
+                        <Mail />
+                    </a>
+                    <a href="https://github.com/RabinKumarBaniya">
+                        <GitHub />
+                    </a>
                 </div>
             </div>
             <div className='skills'>
