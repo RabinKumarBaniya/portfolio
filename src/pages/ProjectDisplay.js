@@ -4,6 +4,7 @@ import { projectList } from '../helpers/ProjectList';
 import { GitHub } from '@material-ui/icons';
 import '../styles/ProjectDisplay.css';
 
+
 const ProjectDisplay = () => {
     const { id } = useParams();
     const project = projectList[id]
@@ -11,9 +12,11 @@ const ProjectDisplay = () => {
         <div className='project'>
             <h1>{project.name}</h1>
             <img src={project.image} />
-            <p>
-                <b>Skills:</b> {project.skills}</p>
-            <GitHub />
+            <p>{project.skills}</p>
+            <a href={project.github} target="_blank">
+                <GitHub />
+            </a>
+
         </div>
     )
 }
