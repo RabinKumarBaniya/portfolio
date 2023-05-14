@@ -1,7 +1,5 @@
 import React from 'react';
-import { Instagram } from '@material-ui/icons';
-import { Facebook } from '@material-ui/icons';
-import { Mail } from '@material-ui/icons';
+import { Instagram, Facebook, Mail, Phone } from '@material-ui/icons';
 import "../styles/Footer.css";
 
 
@@ -13,8 +11,7 @@ const Footer = () => {
                 <Mail />
                 <Instagram />
             </div>
-            <p>&copy; 2023 rabba.com.np</p>
-
+            <p>&copy; 2023 rabba | <Phone style={{ fontSize: '16px' }} /> 9823021304</p>
         </div>
     )
 }

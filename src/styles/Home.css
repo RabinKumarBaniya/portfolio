@@ -3,6 +3,7 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
+  text-align: center;
 }
 
 .about {
@@ -22,10 +23,6 @@
   font-size: 50px;
   color: #e9d35b;
   height: 50px;
-}
-
-.item h2 {
-  color: #e9d35b;
 }
 
 .about .prompt {
@@ -50,6 +47,10 @@
 .skills .list {
   list-style: none;
   width: 60%;
+}
+
+.item h2 {
+  color: #e9d35b;
 }
 
 .list span {
