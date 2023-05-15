@@ -16,6 +16,9 @@ const ProjectDisplay = () => {
             <a href={project.github} target="_blank">
                 <GitHub />
             </a>
+            <a href={project.website} target="_blank">
+                Demo
+            </a>
 
         </div>
     )

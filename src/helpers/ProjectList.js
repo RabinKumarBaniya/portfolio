@@ -14,45 +14,52 @@ export const projectList = [
         name: "CRUD Operation",
         image: crud,
         skills: "ReactJS, mockAPI",
-        github: "https://github.com/RabinKumarBaniya/CRUD"
+        github: "https://github.com/RabinKumarBaniya/CRUD",
+        website: "https://smartcrud.netlify.app/"
     },
     {
 
         name: "Redux Json Store",
         image: reduxjsonstore,
         skills: "React and redux toolkit",
-        github: "https://github.com/RabinKumarBaniya/Redux-JSON-Store"
+        github: "https://github.com/RabinKumarBaniya/Redux-JSON-Store",
+        website: "https://reduxjsonstore.netlify.app/"
     },
     {
         name: "Pizza Time",
         image: pizza,
         skills: "ReactJS , TypeScript",
-        github: "https://github.com/RabinKumarBaniya/mypizza"
+        github: "https://github.com/RabinKumarBaniya/mypizza",
+        website: "https://mypizzatime.netlify.app/"
     },
 
     {
         name: "HealthCare Website",
         image: Healthcare,
         skills: "HTML,CSS",
-        github: "https://github.com/RabinKumarBaniya/healthcare"
+        github: "https://github.com/RabinKumarBaniya/healthcare",
+        website: "https://ourhealthcare.netlify.app/"
+    },
+
+    {
+        name: "Search-Picture",
+        image: search,
+        skills: "ReactJS,Axios,API",
+        github: "https://github.com/RabinKumarBaniya/search-pic",
+        website: "https://mysearchpic.netlify.app/"
+    },
+    {
+        name: "Ecommerce",
+        image: ecommerce,
+        skills: "React and redux toolkit, API",
+        github: "https://github.com/RabinKumarBaniya/E-commerce_Redux",
+        website: "https://reduxecommercee.netlify.app/"
     },
     {
         name: "Nomad-The travelling app",
         image: nomad,
         skills: "Flutter",
         github: "https://github.com/RabinKumarBaniya/nomad"
-    },
-    {
-        name: "Search-Picture",
-        image: search,
-        skills: "ReactJS,API",
-        github: "https://github.com/RabinKumarBaniya/search-pic"
-    },
-    {
-        name: "Ecommerce",
-        image: ecommerce,
-        skills: "React and redux toolkit, API",
-        github: "https://github.com/RabinKumarBaniya/E-commerce_Redux"
     },
     {
         name: "Realtor Clone - Currently working",
