@@ -9,7 +9,7 @@ const Experience = () => {
         <div className='experience'>
             <VerticalTimeline lineColor='#2dc2ac'>
                 <VerticalTimelineElement className='vertical-timeline-element--education'
-                    date='2017 - 2021'
+                    date='2017 - 2022'
                     iconStyle={{ background: '#2dc2ac', color: "#fff" }}
                     icon={<SchoolIcon />}
                 >
