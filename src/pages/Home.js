@@ -2,6 +2,7 @@ import React from 'react';
 import { LinkedIn } from '@material-ui/icons';
 import { Mail } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
+import { CloudDownload } from '@material-ui/icons';
 import "../styles/Home.css";
 
 const Home = () => {
@@ -20,6 +21,10 @@ const Home = () => {
                     <a href="https://github.com/RabinKumarBaniya">
                         <GitHub />
                     </a>
+                    <a href="https://flowcv.com/resume/mw5i6714k7">
+                        <CloudDownload />
+                    </a>
+
                 </div>
             </div>
             <div className='skills'>
