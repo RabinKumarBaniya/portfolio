@@ -5,7 +5,7 @@ import search from '../assets/search.png';
 import pizza from '../assets/pizza.png';
 import reduxjsonstore from '../assets/reduxjsonstore.png';
 import ecommerce from '../assets/ecommerce.png';
-import working from '../assets/working.jpeg';
+import form from '../assets/form.png';
 
 
 export const projectList = [
@@ -62,10 +62,11 @@ export const projectList = [
         github: "https://github.com/RabinKumarBaniya/nomad"
     },
     {
-        name: "Realtor Clone - Currently working",
-        image: working,
-        skills: "React.js, Firebase, and Tailwind CSS",
-        github: "https://github.com/RabinKumarBaniya/Realtor-Clone"
+        name: "signin-up-forgot page",
+        image: form,
+        skills: "React.js, and Tailwind CSS",
+        github: "https://github.com/RabinKumarBaniya/signin-up-forgotpassword-page",
+        website: "https://signin-up-forgot.netlify.app/"
     },
 
 ]
