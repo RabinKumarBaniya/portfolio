@@ -11,7 +11,7 @@ const Home = () => {
             <div className='about'>
                 <h2>Hi, I'm Rabin Kumar Baniya</h2>
                 <div className='prompt'>
-                    <p>Enthusiastic in developing web and mobile application.</p>
+                    <p>Enthusiastic in developing Web and Mobile Application.</p>
                     <a href="https://www.linkedin.com/in/rabin-kumar-baniya-156b45237">
                         <LinkedIn />
                     </a>
@@ -21,11 +21,11 @@ const Home = () => {
                     <a href="https://github.com/RabinKumarBaniya">
                         <GitHub />
                     </a>
-                    <a href="https://drive.google.com/file/d/1aL3Uo4aao3kuO1Y6li_WnCJ4J1G0CZpy/view?usp=share_link">
+                    <a href="https://drive.google.com/file/d/1hriHnldlk5SC4tLGwiBTYhS3brujlgX_/view">
                         <CloudDownload />
                     </a>
-
                 </div>
+
             </div>
             <div className='skills'>
                 <ol className='list'>

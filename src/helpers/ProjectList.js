@@ -28,7 +28,7 @@ export const projectList = [
     {
         name: "Pizza Time",
         image: pizza,
-        skills: "ReactJS , TypeScript",
+        skills: "ReactJS , TailwindCSS",
         github: "https://github.com/RabinKumarBaniya/mypizza",
         website: "https://mypizzatime.netlify.app/"
     },
