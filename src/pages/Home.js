@@ -21,7 +21,7 @@ const Home = () => {
                     <a href="https://github.com/RabinKumarBaniya">
                         <GitHub />
                     </a>
-                    <a href="https://drive.google.com/file/d/1nQCwFn3Z-G3aFk84zsyIu7McXoLQtH99/view?usp=share_link">
+                    <a href="https://drive.google.com/file/d/1eCdXLlvLdrE5peu9JdXp1A6cgvrUtt8o/view?usp=drive_link">
                         <CloudDownload />
                     </a>
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
                 <ol className='list'>
                     <li className='item'>
                         <h2>Front-End</h2>
-                        <span>HTML, CSS, ReactJS, Flutter, BootStrap, MaterialUI, Redux, TailwindCSS</span>
+                        <span>HTML, CSS, ReactJS, Flutter, Bootstrap, MaterialUI, Redux, TailwindCSS</span>
                     </li>
                     <li className='item'>
                         <h2>Languages</h2>

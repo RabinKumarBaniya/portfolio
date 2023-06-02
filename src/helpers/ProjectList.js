@@ -6,6 +6,7 @@ import pizza from '../assets/pizza.png';
 import reduxjsonstore from '../assets/reduxjsonstore.png';
 import ecommerce from '../assets/ecommerce.png';
 import form from '../assets/form.png';
+import blog from '../assets/blog.png';
 
 
 export const projectList = [
@@ -16,6 +17,13 @@ export const projectList = [
         skills: "ReactJS, mockAPI",
         github: "https://github.com/RabinKumarBaniya/CRUD",
         website: "https://smartcrud.netlify.app/"
+    },
+    {
+        name: "Blog",
+        image: blog,
+        skills: "ReactJS, firebase",
+        github: "https://github.com/RabinKumarBaniya/blog",
+        website: "https://rabbablog.netlify.app/"
     },
     {
 
