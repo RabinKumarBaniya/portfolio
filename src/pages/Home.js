@@ -21,7 +21,7 @@ const Home = () => {
                     <a href="https://github.com/RabinKumarBaniya">
                         <GitHub />
                     </a>
-                    <a href="https://drive.google.com/file/d/1eCdXLlvLdrE5peu9JdXp1A6cgvrUtt8o/view?usp=drive_link">
+                    <a href="https://drive.google.com/file/d/1F5JwYXViQXodHe3tTevBSy9lKC1m5y35/view?usp=drive_link">
                         <CloudDownload />
                     </a>
                 </div>

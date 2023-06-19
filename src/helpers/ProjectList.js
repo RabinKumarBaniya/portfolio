@@ -5,7 +5,7 @@ import search from '../assets/search.png';
 import pizza from '../assets/pizza.png';
 import reduxjsonstore from '../assets/reduxjsonstore.png';
 import ecommerce from '../assets/ecommerce.png';
-import form from '../assets/form.png';
+import mern from '../assets/mern.png';
 import blog from '../assets/blog.png';
 
 
@@ -48,14 +48,6 @@ export const projectList = [
         github: "https://github.com/RabinKumarBaniya/healthcare",
         website: "https://ourhealthcare.netlify.app/"
     },
-
-    {
-        name: "Search-Picture",
-        image: search,
-        skills: "ReactJS,Axios,API",
-        github: "https://github.com/RabinKumarBaniya/search-pic",
-        website: "https://mysearchpic.netlify.app/"
-    },
     {
         name: "Ecommerce",
         image: ecommerce,
@@ -70,11 +62,10 @@ export const projectList = [
         github: "https://github.com/RabinKumarBaniya/nomad"
     },
     {
-        name: "signin-up-forgot page",
-        image: form,
-        skills: "React.js, and Tailwind CSS",
-        github: "https://github.com/RabinKumarBaniya/signin-up-forgotpassword-page",
-        website: "https://signin-up-forgot.netlify.app/"
+        name: "Mern",
+        image: mern,
+        skills: "MongoDB,Express,React,Node",
+        github: "https://github.com/RabinKumarBaniya/Mern-crud.git",
     },
 
 ]
