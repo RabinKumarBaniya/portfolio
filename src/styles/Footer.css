@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #c5f9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 100px;
+  }
+  
+  .socialMedia svg {
+    color: #333333;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .socialMedia svg:hover {
+    color: red; 
+  }
+  
+  .footer p {
+    color: #333333
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+    }
+  }
