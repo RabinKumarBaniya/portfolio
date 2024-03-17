@@ -3,6 +3,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #333333;
+    margin-top: 2px;
   }
 
   .about {
@@ -23,8 +24,21 @@
     font-size: 80px;
     color: #e9d35b;
     height: 50px;
+    cursor: pointer;
+    animation: colorScale 2s infinite alternate; 
+  }
+
+  @keyframes colorScale {
+    0% {
+      color: #e9d35b; 
+      transform: scale(1); 
+    }
+    100% {
+      color: red; 
+    }
   }
   
+
   .about .prompt {
     width: 40%;
     font-size: 30px;
@@ -39,6 +53,7 @@
 
   .prompt svg:hover {
     color: red; 
+    transform: scale(1.2);
   }
 
   .skills {
@@ -55,12 +70,37 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
+  }
+  .skills-icons img {
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-icons img:hover {
+    transform: scale(1.2);
   }
   
 
   .skills h1 {
     color: #333333;
   }
+
+  @keyframes slideInAnimation {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .prompt p {
+    animation: slideInAnimation 1s ease-in-out forwards;
+    color: gray;
+  }
+  
   
   
   @media only screen and (max-width: 600px) {
