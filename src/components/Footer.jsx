@@ -15,7 +15,7 @@ function Footer() {
                 <LinkedIn />
             </a>
         </div>
-        <p> &copy; 2024 rabinkumarbaniya.com.np</p>
+        <p> &copy; rabinkumarbaniya.com.np</p>
     </div>
   );
 }
